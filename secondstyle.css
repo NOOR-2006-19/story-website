@@ -1,0 +1,133 @@
+#box{
+    background-color: black;
+    color: darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height:100px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+.main{
+    background-color: black;
+    width: 100px;
+    height: 900px;
+    color: darkgoldenrod;
+    text-align: center;
+    writing-mode:vertical-lr;
+    justify-content: center;
+    vertical-align: middle;
+    rotate: 180deg;
+    position: flex;
+} 
+#name{
+    color: darkgrey;
+    margin-left: 250px;
+    margin-top: 90px;
+    position:absolute;
+}
+#header{
+    color: #2e5229;
+    font-size: xx-large;
+    font-style: italic;
+    margin-left: 250px;
+    position: relative;
+    display: flex;
+    top:150px;
+}
+#image1{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-left: 300px;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+}
+.sub-heading{
+    background-color: darkgoldenrod;
+    color: white;
+    height: 30px;
+}
+.text1{
+    left: 100%;
+    color: black;
+    position: absolute;
+    top: 50px;
+    width: 60%;
+}
+#image2{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-left: 300px;
+    justify-content: center;
+    position: absolute;
+    top: 605px;
+}
+.second-sub-heading{
+    background-color: darkgoldenrod;
+    color: white;
+    height: 30px;
+}
+.text2{
+    left: 100%;
+    color: black;
+    position: absolute;
+    top: 50px;
+    width: 60%;
+}
+#image3{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-left: 800px;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+}
+.third-sub-heading{
+    background-color: darkgoldenrod;
+    color: white;
+    height: 30px;
+}
+.text3{
+    left: 90%;
+    color: black;
+    position: absolute;
+    top: 50px;
+    width: 60%;
+}
+#image4{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    margin-left: 900px;
+    justify-content: center;
+    position: absolute;
+    top: 605px;
+    
+}
+.fourth-sub-heading{
+    margin-left: 300px;
+    background-color: darkgoldenrod;
+    color: white;
+    height: 30px;
+    position: absolute;
+    display: flex;
+}
+.text4{
+    left: 170%;
+    color: black;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: left ;
+}
+a{
+    color: black;
+    margin-left:90%;
+    position: absolute;
+    margin-top: 0px;
+}

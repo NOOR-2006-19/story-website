@@ -1,0 +1,188 @@
+.main {
+    background-color: black;
+    width: 200px;
+    height: 700px;
+    color: darkgoldenrod;
+    text-align: center;
+    writing-mode: vertical-lr;
+    justify-content: center;
+   
+    rotate: 180deg;
+    margin-top: 0px;
+    
+}
+
+#header {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    margin-left: 180px;
+}
+
+.scene {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+img {
+    width: 375px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+
+
+.Box {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 100;
+    width: 100px;
+    height: auto;
+    background-color: rgb(106, 234, 106);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 0px;
+}
+
+p {
+    width: 200%;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(143, 114, 43);
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+   
+}
+
+.Box1{
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 100;
+    width: 40%;
+    height: 7vh;
+    background-color: rgb(106, 234, 106);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 20%;
+}
+
+.container2 p{
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 27%;
+    margin-top: 4%;
+}
+
+footer{
+    background-color: rgba(38, 35, 35, 0.8);
+    color: black;
+    
+    padding: 1em 0;
+    bottom: 0;
+    
+    
+    width: 100%;
+
+}
+.container3{
+    color: black;
+    text-align: center;
+    display: flex;
+}
+
+footer p{
+    margin: 5px;
+}
+
+.window {
+    padding: 3em 0;
+    border-top: 2px solid rgb(126, 52, 25);
+}
+
+.window:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+.feed-back{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(143, 114, 43);
+}
+
+button{
+    padding: 15px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: black;
+    color: azure;
+    font-weight: 900;
+    transition: 0.3s ease;
+    
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+textarea{
+    resize: none;
+}
+
+input[type="text"], input[type="email"],textarea{
+    width: 200%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: medium;
+    margin-right: 5%;
+}
+
+#Feedback{
+    display: flex;
+   
+    align-items: center;
+    gap: 20%;
+    }
+
+#pdf{
+    text-align: center;
+}
+
+.center{
+    margin-left: 30%;
+    margin-bottom: 5%;
+    
+}
+
+
